@@ -1,0 +1,70 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Estilo do Header */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 2rem;
+}
+
+#franquias {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.franquia {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.franquia h3 {
+    margin: 0 0 0.5rem;
+}
+
+.franquia button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.franquia button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
